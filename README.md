@@ -1,23 +1,22 @@
-# Vivo V7 Android Debloater
+# Vivo Android Debloater
 
-Clean your Vivo V7 bloated device without root! The list of bloatware app are from [Technastic](https://technastic.com/vivo-bloatware-preinstalled-apps-list/).
+Clean your Vivo bloated device without root! The list of bloatware app are from [Technastic](https://technastic.com/vivo-bloatware-preinstalled-apps-list/).
 
 ## Requirement
 
 - **ADB**
 - Python3
-- A bloated android device
-- A functional brain
+- A bloated Vivo or any android device
 
 ## Debloating
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/Surendrajat/android-debloater && cd android-debloater
+   git clone https://github.com/webdevsuperfast/android-debloater && cd android-debloater
    ```
 2. Connect device with `adb` and test with:
    ```bash
-   adb decives
+   adb devices
    ```
 3. Run 
    ```bash
@@ -45,11 +44,12 @@ Clean your Vivo V7 bloated device without root! The list of bloatware app are fr
    ```bash
    adb shell cmd package install-existing com.android.packagename ## Replace packagename to the package name you wish to restore.
    ```
-## Troubleshooting
+## Known Issues
 
-Meh! It's simple. Figure out yourself. 
+1. Inability to add Google Account after removing GMail(com.google.android.gm) & Gmail Services(com.google.android.gms).
 
 ## Useful links
 
+* [Bloatware App List](https://technastic.com/vivo-bloatware-preinstalled-apps-list/)
 * [XDA - Uninstall Carrier OEM Bloatware](https://www.xda-developers.com/uninstall-carrier-oem-bloatware-without-root-access/)
 * [XDA - Install Back Uninstalled Apps](https://forum.xda-developers.com/t/how-to-get-install-back-uninstalled-apps-apks-with-adb.3894235/)
