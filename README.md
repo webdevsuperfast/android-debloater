@@ -1,12 +1,12 @@
-# Vivo Android Debloater
+# Android Debloater
 
-Clean your Vivo bloated device without root! The list of bloatware app are from [Technastic](https://technastic.com/vivo-bloatware-preinstalled-apps-list/).
+Clean your bloated device without root! For the lists of bloatware apps visit [Technastic](https://technastic.com/vivo-bloatware-preinstalled-apps-list/) website.
 
-## Requirement
+## Requirements
 
-- **ADB**
+- ADB
 - Python3
-- A bloated Vivo or any android device
+- A bloated android device
 
 ## Debloating
 
